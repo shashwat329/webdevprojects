@@ -1,0 +1,95 @@
+body{
+    background-image: url(gymbg.jpg);
+    background-repeat: no-repeat;
+}
+.left{
+    display: inline-block;
+    margin: -19px;
+
+}
+div img{
+    width: 121px;
+    filter: invert(100%);
+
+}
+.figcaption{
+    color: white;
+    position: absolute;
+    top: 57px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 12px;
+    left: 0px;
+    cursor: default;
+}
+.mid{
+    display: inline-block;
+    width: 33%;
+    position: absolute;
+    left: 550px;
+    top: 13px;
+}
+ul li{
+    display: inline;
+}
+ul li a:hover{
+    color: grey;
+    text-decoration: underline;
+    font-size: 27px;
+    position: relative;
+    top: -4px;
+}
+.navtab{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 24px;
+    margin: 5px;
+
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 11px;
+    font-size: 20px;
+    border-color: grey;
+}
+.btn:hover{
+    background-color: grey;
+    font-size: 23px;
+}
+.formlist{
+    border: 4px solid grey;
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    height: 260px;
+    width: 450px;
+    border-top-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+div h1{
+    color: white;
+    text-align: center;
+    cursor: default;
+}
+.form{
+    display: block;
+    width: 277px;
+    margin: auto;
+    border-radius: 10px;
+    height: 22px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#subbtn{
+    display: block;
+    width:277px;
+    margin: auto;
+}
